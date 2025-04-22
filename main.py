@@ -33,5 +33,4 @@ class MyClass:
     def __private_MyMethod(self):
         print("This is private method")
 
-myclass = MyClass("" \
-"class1")
+myclass = MyClass("class1")
