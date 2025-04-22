@@ -28,9 +28,12 @@
 
 class MyClass:
     def __init__(self):
-        self.__private_variable = __private_variable
-    
+        self.__private_variable = "__private_variable"
+        self.__protected_variable = "protected variable"
     def __private_MyMethod(self):
         print("This is private method")
+    def __protected_Method(self):
+        print("Protected Method")
+    
 
-myclass = MyClass("class1")
+myclass = MyClass("")
